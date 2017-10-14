@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  adtests:
+    image: dtr.prodevlife.com/samples/adtests
+    build:
+      context: .\adtests
+      dockerfile: Dockerfile
+    credential_spec:
+      file: containertest.json

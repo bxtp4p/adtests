@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  adtests:
+    networks:
+      - nat
+
+networks:
+  nat:
+    external: true
